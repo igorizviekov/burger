@@ -1,0 +1,42 @@
+.Controls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  user-select: none;
+}
+
+.ControlButtons {
+  text-align: center;
+  font-size: larger;
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  background-color: white;
+  border-radius: 15%;
+  padding: 2% 3%;
+}
+.ControlButtons:active {
+  background-color: rgb(222, 222, 222);
+}
+.ControlButtons:disabled {
+  cursor: default;
+  border: none;
+}
+
+.Label {
+  font-weight: bold;
+  font-size: larger;
+}
+
+@media only screen and (max-width: 1024px) and (max-device-width: 667px) {
+  .Label {
+    font-size: smaller;
+  }
+  .ControlButtons {
+    padding: 5% 8%;
+    touch-action: manipulation;
+  }
+}

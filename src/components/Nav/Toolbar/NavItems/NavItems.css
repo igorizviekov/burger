@@ -1,0 +1,30 @@
+/* .NavItems {
+  height: 100%;
+  list-style-type: none;
+  cursor: pointer;
+  user-select: none;
+  font-weight: bold;
+  width: auto;
+  font-size: larger;
+  margin-right: auto;
+} */
+
+a {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: black;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 500ms;
+}
+
+a.active {
+  background-color: rgb(222, 222, 222);
+}
+
+/* @media only screen and (max-width: 1024px) {
+  .NavItems {
+    display: none;
+  } */

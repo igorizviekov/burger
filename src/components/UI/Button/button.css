@@ -1,0 +1,54 @@
+.Button {
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  outline: none;
+  margin: 4%;
+  margin-right: 7%;
+  padding: 2%;
+  border-radius: 5%;
+  border: 1px solid lightgrey;
+  transition: 500ms;
+}
+.Button:active {
+  background-color: rgb(222, 222, 222);
+}
+.OrderButton {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 1%;
+}
+
+.SubmitButton {
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+.LoginButton {
+  width: 50%;
+
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  margin-bottom: 5%;
+}
+
+.LoginButtonClicked {
+  background-color: red;
+}
+
+.Button:hover {
+  background-color: rgb(222, 222, 222);
+}
+
+@media only screen and (max-width: 1024px) {
+  .Button {
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

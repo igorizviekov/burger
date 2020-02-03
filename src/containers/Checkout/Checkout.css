@@ -1,0 +1,20 @@
+.BackBurger {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image: url("./../../assets/BreadTop.svg"),
+    url("./../../assets//BreadBottom.svg");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: 50% 5%, 50% 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .BackBurger {
+    background-size: 30%;
+    background-position: 50% 5%, 50% 100%;
+  }
+}

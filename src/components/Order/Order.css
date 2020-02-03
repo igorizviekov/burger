@@ -1,0 +1,13 @@
+.Order {
+  background-color: rgb(250, 250, 250);
+  display: block;
+  margin: 2% 20%;
+  text-align: center;
+  border: 1px solid lightgrey;
+  transition: ease-out 500ms;
+}
+
+.Order:hover {
+  background-color: white;
+  transform: scale(1.1);
+}

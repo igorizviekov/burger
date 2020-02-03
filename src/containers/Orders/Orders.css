@@ -1,0 +1,28 @@
+.ProgressTitle {
+  color: white;
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Orders {
+  text-align: center;
+  margin-top: 20%;
+  padding-bottom: 5%;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
+.Link {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  transition: 500ms;
+  text-decoration: underline;
+}
+
+.Link:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+}

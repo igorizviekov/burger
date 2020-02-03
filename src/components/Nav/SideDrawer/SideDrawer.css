@@ -1,0 +1,28 @@
+.SideDrawer {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  z-index: 101;
+  width: 200px;
+  height: 250px;
+  background-color: rgb(245, 245, 245);
+  transition: transform 0.3s ease-out;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
+
+.Close {
+  transform: translateY(-200%);
+}
+.Open {
+  transform: translateY(0);
+}
+
+.SideDrawerLinks {
+  font-size: larger;
+  display: flex;
+  flex-flow: column;
+  padding-left: 0;
+  margin-top: 20%;
+}

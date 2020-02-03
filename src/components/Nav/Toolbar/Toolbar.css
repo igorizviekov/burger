@@ -1,0 +1,23 @@
+.Toolbar {
+  height: 10%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  z-index: 150;
+  /* z-index higher then modal and side draw */
+}
+
+.NavItems {
+  display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .NavItems {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.BuildControls {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  margin-top: 10%;
+  padding-bottom: 2%;
+  font-size: larger;
+  text-align: center;
+}

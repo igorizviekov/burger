@@ -1,0 +1,18 @@
+.Logo {
+  position: fixed;
+  top: 3%;
+  left: 47%;
+  width: 70px;
+  pointer-events: none;
+  user-select: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Logo {
+    position: initial;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 80px;
+    padding: 10px;
+  }
+}

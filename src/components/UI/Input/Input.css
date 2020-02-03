@@ -1,0 +1,21 @@
+.Input {
+  background-color: rgb(235, 235, 235);
+  font-family: inherit;
+  font-size: larger;
+  display: block;
+  margin: auto;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  outline: none;
+  transition: 500ms;
+  width: 80%;
+}
+.Input:focus {
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .Input {
+    font-size: xx-large;
+  }
+}
