@@ -25,6 +25,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 new branch 
 very very good
-=======
-very very bad
->>>>>>> bad
+one
